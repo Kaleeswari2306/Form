@@ -1,0 +1,38 @@
+.error-message
+{
+    color:red;
+    font-size: bold;
+   
+}
+h1{
+    text-align: center;
+    background-image: url("https://cdn.forms.office.net/forms/images/neopages/template/tm01084693.png"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    
+}
+p{
+    text-align: center;
+    font-weight:bold; 
+}
+form{
+    text-align: center;
+    width:100%;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/sheet-paper-pen-with-blue-background_53876-41374.jpg?semt=ais_hybrid");
+    background-size: cover;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.box {
+    width: 500px;
+    
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 20px 5px rgba(81, 247, 4, 0.5);
+}
+@media (max-width: 700px){
+    .box {
+        width: 380px;
+    }}
